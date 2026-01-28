@@ -1,10 +1,5 @@
 # Veritas: Real-Time Multimodal Disinformation Engine
 
-![React](https://img.shields.io/badge/前端-Next.js_14-blue)
-![Python](https://img.shields.io/badge/Backend-FastAPI-green)
-![AI](https://img.shields.io/badge/AI-PyTorch_&_Transformers-orange)
-![Infra](https://img.shields.io/badge/Infra-Docker_&_Kafka-blueviolet)
-
 **Veritas** is a high-performance, event-driven pipeline designed to detect disinformation in real-time. It processes multimodal news articles (Text + Image) using a deep learning model to assign an authenticity score. If the model is uncertain, it triggers a secondary OCR (Optical Character Recognition) check to verify semantic consistency between the headline and the image text.
 
 ## 🚀 Key Features
@@ -54,7 +49,8 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) to view the live analysis feed.
 
 ## 📷 Screenshots
-*(Add screenshots of your dashboard here)*
+<img width="1468" height="741" alt="image" src="https://github.com/user-attachments/assets/af317f4d-337a-4ef6-a068-9b03f4453f5d" />
+
 
 ## 📄 License
 MIT
