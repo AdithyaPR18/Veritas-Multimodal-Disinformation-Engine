@@ -1,4 +1,4 @@
-# Veritas: Real-Time Multimodal Disinformation Engine
+# Veritas: Real Time Multimodal Disinformation Engine
 
 **Veritas** is a high-performance, event-driven pipeline designed to detect disinformation in real-time. It processes multimodal news articles (Text + Image) using a deep learning model to assign an authenticity score. If the model is uncertain, it triggers a secondary OCR (Optical Character Recognition) check to verify semantic consistency between the headline and the image text.
 
