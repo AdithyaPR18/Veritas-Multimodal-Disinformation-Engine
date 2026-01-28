@@ -14,20 +14,6 @@
 *   **Live Mission Control**: A "Minority Report" style dashboard built with Next.js, Framer Motion, and WebSockets.
 *   **Adaptive Verification**: Automatically triggers expensive OCR checks only when model confidence is low (Uncertainty Sampling).
 
-## 🛠 Architecture
-
-```mermaid
-graph LR
-    A[Producer (News Source)] -->|JSON Articles| B(Kafka Topic: veritas-articles)
-    B --> C[Consumer (AI Engine)]
-    C -->|Inference| D{Confidence Score}
-    D -->|High/Low| E[Result Stream]
-    D -->|Uncertain (0.4-0.6)| F[OCR Module]
-    F --> E
-    E -->|JSON Results| G(Kafka Topic: veritas-results)
-    G --> H[FastAPI WebSocket Server]
-    H -->|ws://| I[Next.js Dashboard]
-```
 
 ## 📦 Tech Stack
 
