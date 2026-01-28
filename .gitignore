@@ -1,0 +1,31 @@
+# System
+.DS_Store
+Thumbs.db
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+
+# Dependencies
+node_modules/
+web/node_modules/
+
+# Next.js
+web/.next/
+web/out/
+web/build/
+
+# Project Artifacts
+test_image.jpg
+veritas_weights.pth
+*.log
+
+# IDEs
+.vscode/
+.idea/
